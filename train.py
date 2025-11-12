@@ -94,7 +94,7 @@ def train_model_with_warmup_cosine(model, trainloader, valloader, optimizer, cri
         
         train_pbar = tqdm(
             trainloader, 
-            desc=f'🏋️ Epoch {epoch+1}/{epochs} [Train]',
+            desc=f' Epoch {epoch+1}/{epochs} [Train]',
             leave=True
         )
         
@@ -256,12 +256,12 @@ def main():
     result = translate_sentence(model, src_tokenizer, tgt_tokenizer, test_sentence, device)
     print(f"EN: {test_sentence}")
     print(f"TA: {result}")
-    print("\n💾 Saving model and tokenizers into a zip file ")
+    print("\n Saving model and tokenizers into a zip file ")
     with zipfile.ZipFile("transformer_complete_package.zip", 'w') as zipf:
         zipf.write("transformer_final.pth")
         zipf.write("src_tokenizer_final.json")
         zipf.write("tgt_tokenizer_final.json")
-    print("📦 Downloading trained model to your computer...")
+    print(" Downloading trained model to your computer...")
     if os.path.exists("transformer_complete_package.zip"):
         files.download("transformer_complete_package.zip")
         print("Download complete! Check your downloads folder.")
