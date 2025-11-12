@@ -3,7 +3,7 @@
 
 ### *Transformer-based Translation Model with Advanced Training Techniques*
 
-![Transformer Architecture](https://miro.medium.com/v2/resize\:fit:1100/format\:webp/1*o0kU1ShFzeyj1QyC8l09aA.png)
+![Transformer Architecture](https://arxiv.org/abs/1706.03762)
 
 > A custom-built Transformer architecture trained from scratch for English → Tamil translation using PyTorch.
 
