@@ -187,7 +187,7 @@ Improves translation quality by exploring multiple candidate sequences instead o
 
 **G. Sharan Eshwar**
 📧 [sharaneshwar182007@gmail.com](mailto:sharaneshwar182007@gmail.com)
-🚀 Researcher in DeepNeural Network,Geospatial AI & Transformer-based Language Models
+🚀 Hobby Researcher in DeepNeural Network,Geospatial AI & Transformer-based Language Models
 
 ---
 
